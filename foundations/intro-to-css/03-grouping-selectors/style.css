@@ -1,0 +1,17 @@
+.b-click,
+.b-nclick {
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+  border-top: gray 2px solid;
+  border-left: gray 2px solid;
+}
+
+.b-click {
+  background-color: black;
+  color: white;
+}
+
+.b-nclick {
+  background-color: yellow;
+  color: black;
+}
