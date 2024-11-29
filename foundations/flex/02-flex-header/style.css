@@ -1,4 +1,4 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
 }
@@ -19,7 +19,22 @@ ul {
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+  padding: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
 }
